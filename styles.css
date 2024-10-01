@@ -1,0 +1,151 @@
+/* Tipografía */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fondo del Header */
+.header-bg {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.banner-img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+/* Estilo de los títulos */
+.title-style {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo de secciones informativas */
+.info-box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.info-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilo para la sección de servicios */
+.services-bg {
+    background-color: #282828;
+    color: #fff;
+}
+
+.service-card {
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+/* Links en el Footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9800;
+}
+
+/* Carousel Styling */
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* Servicios Cards */
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.service-card .card-body {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-card .card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.service-card .card-text {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .service-card img {
+        height: 150px;
+    }
+}
+
